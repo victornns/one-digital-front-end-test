@@ -3,6 +3,8 @@
 
 ## Instruções:
 
+* Fork o repositório do projeto;
+
 * Desenvolva a página responsiva com base no layout Desktop;
 
 * Nós queremos avaliar o seu nível de conhecimento em design responsivo, então resolva os breakpoints como achar melhor;
@@ -17,7 +19,7 @@
 
 * Suporte os navegadores: IE9+, Chrome, Firefox e Safari;
 
-* Envie seu teste em uma branch com seu `nome-sobrenome`;
+* Envie o pull-request em uma branch com seu `nome-sobrenome`;
 
 * Faça o teste com calma e não exite em nos enviar. Você será avaliado independente dá conclusão do teste.
 
