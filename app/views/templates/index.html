@@ -1,5 +1,5 @@
 <!doctype html>
-<html class="no-js" lang="">
+<html lang="en" dir="ltr">
 
 <head>
     <meta charset="utf-8">
@@ -9,12 +9,138 @@
 
     <title>Tinyone</title>
 
+    <!-- google fonts -->
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700" rel="stylesheet">
+
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
+    <!-- tine-slider -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.1/tiny-slider.css">
+    <!--[if (lt IE 9)]><script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.1/min/tiny-slider.helper.ie8.js"></script><![endif]-->
+
     <link rel="stylesheet" href="../styles/styles.css">
 </head>
 
 <body>
 
-    <h1>Tinyone</h1>
+    <button class="toggle-menu hamburger hamburger--slider" type="button">
+        <span class="hamburger-box">
+            <span class="hamburger-inner"></span>
+        </span>
+    </button>
+
+    <div class="modal"></div>
+
+    <header class="header">
+        <div class="container">
+
+            <nav class="header__navigation">
+                <a href="/" class="header__brand">
+                    <img src="images/brand.png" alt="Tinyone">
+                    Tinyone
+                </a>
+                <ul class="header__list">
+                    <li class="header__item">
+                        <a href="#" class="header__link active">Features</a>
+                    </li>
+                    <li class="header__item">
+                        <a href="#" class="header__link">Suport</a>
+                    </li>
+                    <li class="header__item">
+                        <a href="#" class="header__link">Blog</a>
+                    </li>
+                </ul>
+            </nav>
+
+        </div>
+    </header>
+
+    <section class="spotlight">
+        <div class="spotlight__wrapper">
+            <!-- item -->
+            <div>
+                <div class="container">
+                    <div class="spotlight__item">
+                        <div class="spotlight__first-column">
+                            <h2 class="title">Inspire your inspiration</h2>
+                            <h3 class="subtitle">Simple to use for your app, products showcase and your inspiration</h3>
+                            <p class="info">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae eros eget tellus tristique bibendum. Donec rutrum sed sem quis venenatis. Proin viverra risus a eros volutpat tempor. In quis arcu et eros porta lobortis sit</p>
+
+                            <ul class="spotlight__stores">
+                                <li class="item">
+                                    <a href="#" class="link"><i class="fab fa-apple"></i></a>
+                                </li>
+                                <li class="item">
+                                    <a href="#" class="link"><i class="fab fa-android"></i></a>
+                                </li>
+                                <li class="item">
+                                    <a href="#" class="link"><i class="fab fa-windows"></i></a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="spotlight__last-column">
+                            <img src="images/tablet.png" alt="Tinyone in tablet">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- item -->
+            <div>
+                <div class="container">
+                    <div class="spotlight__item">
+                        <div class="spotlight__first-column">
+                            <h2 class="title">Inspire your inspiration</h2>
+                            <h3 class="subtitle">Simple to use for your app, products showcase and your inspiration</h3>
+                            <p class="info">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae eros eget tellus tristique bibendum. Donec rutrum sed sem quis venenatis. Proin viverra risus a eros volutpat tempor. In quis arcu et eros porta lobortis sit</p>
+
+                            <ul class="spotlight__stores">
+                                <li class="item">
+                                    <a href="#" class="link"><i class="fab fa-apple"></i></a>
+                                </li>
+                                <li class="item">
+                                    <a href="#" class="link"><i class="fab fa-android"></i></a>
+                                </li>
+                                <li class="item">
+                                    <a href="#" class="link"><i class="fab fa-windows"></i></a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="spotlight__last-column">
+                            <img src="images/tablet.png" alt="Tinyone in tablet">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- item -->
+            <div>
+                <div class="container">
+                    <div class="spotlight__item">
+                        <div class="spotlight__first-column">
+                            <h2 class="title">Inspire your inspiration</h2>
+                            <h3 class="subtitle">Simple to use for your app, products showcase and your inspiration</h3>
+                            <p class="info">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae eros eget tellus tristique bibendum. Donec rutrum sed sem quis venenatis. Proin viverra risus a eros volutpat tempor. In quis arcu et eros porta lobortis sit</p>
+
+                            <ul class="spotlight__stores">
+                                <li class="item">
+                                    <a href="#" class="link"><i class="fab fa-apple"></i></a>
+                                </li>
+                                <li class="item">
+                                    <a href="#" class="link"><i class="fab fa-android"></i></a>
+                                </li>
+                                <li class="item">
+                                    <a href="#" class="link"><i class="fab fa-windows"></i></a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="spotlight__last-column">
+                            <img src="images/tablet.png" alt="Tinyone in tablet">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
 
 
@@ -24,6 +150,8 @@
 
 
 
+    <!-- tiny slider -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.1/min/tiny-slider.js"></script>
 
     <script src="../scripts/app.js"></script>
 </body>
