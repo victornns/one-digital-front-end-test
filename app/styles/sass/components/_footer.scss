@@ -1,0 +1,24 @@
+.footer {
+    padding-bottom: 100px;
+    background-color: #010101;
+    color: #d0d0d0;
+    font-size: px-to-rem(16px);
+    line-height: px-to-rem(22px);
+
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    @media screen and (max-width: 768px) {
+        padding-bottom: 60px;
+
+        &__wrapper {
+            flex-direction: column;
+        }
+
+        ul {
+            margin-top: 20px;
+        }
+    }
+}
