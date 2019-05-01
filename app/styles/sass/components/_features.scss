@@ -6,6 +6,7 @@
         font-size: px-to-rem(32px);
         margin-bottom: 20px;
         text-align: center;
+        @extend .font-bold;
     }
 
     &__subtitle {
